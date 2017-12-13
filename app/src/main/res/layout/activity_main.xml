@@ -38,38 +38,38 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-       <!-- <info.hoang8f.widget.FButton
-            android:layout_width="0dp"
-            android:text="Sign Up"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="8dp"
-            android:id="@+id/btnSignUp"
-            app:buttonColor="@color/btnSignUp"
-            app:shadowColor="@android:color/black"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"
-            app:cornerRadius="4dp"
-            />
+    <!--<info.hoang8f.widget.FButton
+         android:layout_width="0dp"
+         android:text="Sign Up"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_margin="8dp"
+         android:id="@+id/btnSignUp"
+         app:buttonColor="@color/btnSignUp"
+         app:shadowColor="@android:color/black"
+         app:shadowEnabled="true"
+         app:shadowHeight="5dp"
+         app:cornerRadius="4dp"
+         />
 
-        <info.hoang8f.widget.FButton
-            android:layout_width="0dp"
-            android:text="Sign In"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="8dp"
-            android:id="@+id/btnSignIn"
-            app:buttonColor="@color/btnSignIn"
-            app:shadowColor="@android:color/black"
-            app:shadowEnabled="true"
-            app:shadowHeight="5dp"
-            app:cornerRadius="4dp"
-            />
-            -->
-
+     <info.hoang8f.widget.FButton
+         android:layout_width="0dp"
+         android:text="Sign In"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_margin="8dp"
+         android:id="@+id/btnSignIn"
+         app:buttonColor="@color/btnSignIn"
+         app:shadowColor="@android:color/black"
+         app:shadowEnabled="true"
+         app:shadowHeight="5dp"
+         app:cornerRadius="4dp"
+         />-->
 
 
-    </LinearLayout>
+
+
+ </LinearLayout>
 
     <Button
         android:id="@+id/btnSignIn"
@@ -80,6 +80,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/linearLayout"
         android:layout_marginBottom="49dp"
+        android:background="@color/colorPrimary"
+        android:backgroundTint="@color/colorAccent"
         android:text="Sign In" />
 
     <Button
@@ -90,6 +92,7 @@
         android:layout_alignBottom="@+id/btnSignIn"
         android:layout_alignEnd="@+id/linearLayout"
         android:layout_alignRight="@+id/linearLayout"
+        android:background="@color/colorPrimary"
         android:text="Sign Up" />
 
 
