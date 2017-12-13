@@ -41,7 +41,6 @@ public class Signin extends AppCompatActivity {
                 mDialog.show();
                 table_user.addValueEventListener(new ValueEventListener() {
 
-
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
                         //check if user exists
